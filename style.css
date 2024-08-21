@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#word-container {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+}
+
+#letter-buttons {
+    margin: 20px 0;
+}
+
+#letter-buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#letter-buttons button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+#message {
+    font-size: 18px;
+    color: #333;
+}
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+
+#hangman-canvas {
+    margin-top: 20px;
+}
